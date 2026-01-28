@@ -1,13 +1,13 @@
 // ignore_for_file: sort_child_properties_last
- 
+
 import 'package:flutter/material.dart';
 import 'package:flutter_iot_second_app/views/signin_ui.dart';
 import 'package:flutter_iot_second_app/views/signup_ui.dart';
 import 'package:google_fonts/google_fonts.dart';
- 
+
 class HomeUi extends StatelessWidget {
   const HomeUi({super.key});
- 
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
