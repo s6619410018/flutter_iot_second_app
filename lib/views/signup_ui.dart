@@ -1,14 +1,14 @@
 // ignore_for_file: sort_child_properties_last
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
- 
+
 class SignupUi extends StatefulWidget {
   const SignupUi({super.key});
- 
+
   @override
   State<SignupUi> createState() => _SignupUiState();
 }
- 
+
 class _SignupUiState extends State<SignupUi> {
   @override
   Widget build(BuildContext context) {
@@ -36,17 +36,17 @@ class _SignupUiState extends State<SignupUi> {
                         size: 26,
                       ),
                     ),
- 
+
                     const SizedBox(height: 15),
- 
+
                     /// Image (LEFT)
                     Image.asset(
                       'assets/images/logo.png',
                       width: 180,
                     ),
- 
+
                     const SizedBox(height: 20),
- 
+
                     /// Title
                     const Text(
                       'Get On Board!',
@@ -55,9 +55,9 @@ class _SignupUiState extends State<SignupUi> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
- 
+
                     const SizedBox(height: 6),
- 
+
                     /// Subtitle
                     const Text(
                       'Create your profile to start your journey.',
@@ -66,38 +66,38 @@ class _SignupUiState extends State<SignupUi> {
                         color: Colors.grey,
                       ),
                     ),
- 
+
                     const SizedBox(height: 25),
- 
+
                     buildTextField(
                       hint: 'Full Name',
                       icon: Icons.person_outline,
                     ),
- 
+
                     const SizedBox(height: 15),
- 
+
                     buildTextField(
                       hint: 'E-Mail',
                       icon: Icons.email_outlined,
                     ),
- 
+
                     const SizedBox(height: 15),
- 
+
                     buildTextField(
                       hint: 'Phone No',
                       icon: Icons.numbers,
                     ),
- 
+
                     const SizedBox(height: 15),
- 
+
                     buildTextField(
                       hint: 'Password',
                       icon: FontAwesomeIcons.fingerprint,
                       obscure: true,
                     ),
- 
+
                     const SizedBox(height: 25),
- 
+
                     /// SIGNUP BUTTON
                     ElevatedButton(
                       onPressed: () {},
@@ -116,9 +116,9 @@ class _SignupUiState extends State<SignupUi> {
                         ),
                       ),
                     ),
- 
+
                     const SizedBox(height: 20),
- 
+
                     /// OR
                     const Center(
                       child: Text(
@@ -126,9 +126,9 @@ class _SignupUiState extends State<SignupUi> {
                         style: TextStyle(color: Colors.grey),
                       ),
                     ),
- 
+
                     const SizedBox(height: 20),
- 
+
                     /// Google Button
                     OutlinedButton(
                       onPressed: () {},
@@ -156,9 +156,9 @@ class _SignupUiState extends State<SignupUi> {
                         ),
                       ),
                     ),
- 
+
                     const SizedBox(height: 20),
- 
+
                     /// Login
                     Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -185,7 +185,7 @@ class _SignupUiState extends State<SignupUi> {
       ),
     );
   }
- 
+
   /// Reusable TextField
   Widget buildTextField({
     required String hint,
