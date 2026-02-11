@@ -14,7 +14,7 @@ class _SigninUiState extends State<SigninUi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: const Color.fromARGB(255, 140, 243, 200),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(40.0),
@@ -79,7 +79,7 @@ class _SigninUiState extends State<SigninUi> {
                     ),
                     hintText: 'E-Mail',
                     hintStyle: TextStyle(
-                      color: Colors.grey,
+                      color: Colors.black,
                     ),
                     contentPadding: EdgeInsets.symmetric(
                       vertical: 25.0,
@@ -102,7 +102,7 @@ class _SigninUiState extends State<SigninUi> {
                     ),
                     hintText: 'Password',
                     hintStyle: TextStyle(
-                      color: Colors.grey,
+                      color: Colors.black,
                     ),
                     contentPadding: EdgeInsets.symmetric(
                       vertical: 25.0,

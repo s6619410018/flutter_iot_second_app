@@ -13,13 +13,14 @@ class _SignupUiState extends State<SignupUi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 7, 185, 255), // พื้นหลังเหลือง
+      backgroundColor:
+          const Color.fromARGB(255, 225, 236, 152), // พื้นหลังเหลือง
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(12.0),
           child: Container(
             decoration: BoxDecoration(
-              color: Colors.white,
+              color: const Color.fromARGB(255, 166, 241, 233),
               borderRadius: BorderRadius.circular(20),
             ),
             child: SingleChildScrollView(

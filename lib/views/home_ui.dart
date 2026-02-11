@@ -11,7 +11,7 @@ class HomeUi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.green[50],
+      backgroundColor: const Color.fromARGB(255, 113, 211, 238),
       body: Center(
         child: Column(
           children: [
